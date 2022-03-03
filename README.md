@@ -7,6 +7,6 @@ All software and electrical systems designed and built by us. Credit to Josh Wor
 
 ## Intro
 
-This project, at the time of writing, was the most challenging project I've been a part of. It involved learning Verilog at a deeper level, understanding a RISC CPU architecture and ISA enough to realize it in Verilog, and putting many moving pieces of a system together in a working state. 
+This project, at the time of writing, (3/3/2022) was the most challenging project I've been a part of. It involved learning Verilog at a deeper level, understanding a RISC CPU architecture and ISA enough to realize it in Verilog, and putting many moving pieces of a system together in a working state. 
 
 ![CPU](https://user-images.githubusercontent.com/69744715/153647981-636f586a-73ba-451a-a3e8-54008a1c6744.png)
