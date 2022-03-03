@@ -1,0 +1,428 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 456 176 624 192)
+	(text "INPUT" (rect 15 0 43 10)(font "Arial" (font_size 6)))
+	(text "PC_en" (rect 109 0 140 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 84 12)(pt 59 12))
+		(line (pt 84 4)(pt 59 4))
+		(line (pt 55 8)(pt 0 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 59 4)(pt 55 8))
+		(line (pt 59 12)(pt 55 8))
+	)
+	(flipy)
+	(text "VCC" (rect 20 7 40 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 456 192 624 208)
+	(text "INPUT" (rect 15 0 43 10)(font "Arial" (font_size 6)))
+	(text "clock" (rect 109 0 133 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 84 12)(pt 59 12))
+		(line (pt 84 4)(pt 59 4))
+		(line (pt 55 8)(pt 0 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 59 4)(pt 55 8))
+		(line (pt 59 12)(pt 55 8))
+	)
+	(flipy)
+	(text "VCC" (rect 20 7 40 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 456 416 632 432)
+	(text "INPUT" (rect 15 0 43 10)(font "Arial" (font_size 6)))
+	(text "Rsrc_imm[15..0]" (rect 94 0 171 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 84 12)(pt 59 12))
+		(line (pt 84 4)(pt 59 4))
+		(line (pt 55 8)(pt 0 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 59 4)(pt 55 8))
+		(line (pt 59 12)(pt 55 8))
+	)
+	(flipy)
+	(text "VCC" (rect 20 7 40 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 456 432 624 448)
+	(text "INPUT" (rect 15 0 43 10)(font "Arial" (font_size 6)))
+	(text "ls_ctrl" (rect 133 0 163 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 84 12)(pt 59 12))
+		(line (pt 84 4)(pt 59 4))
+		(line (pt 55 8)(pt 0 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 59 4)(pt 55 8))
+		(line (pt 59 12)(pt 55 8))
+	)
+	(flipy)
+	(text "VCC" (rect 20 7 40 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 208 344 400 360)
+	(text "INPUT" (rect 149 0 177 10)(font "Arial" (font_size 6)))
+	(text "next_address[15..0]" (rect 5 0 103 12)(font "Arial" ))
+	(pt 192 8)
+	(drawing
+		(line (pt 108 12)(pt 133 12))
+		(line (pt 108 4)(pt 133 4))
+		(line (pt 137 8)(pt 192 8))
+		(line (pt 108 12)(pt 108 4))
+		(line (pt 133 4)(pt 137 8))
+		(line (pt 133 12)(pt 137 8))
+	)
+	(text "VCC" (rect 152 7 172 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 232 360 400 376)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "pc_set_ctrl" (rect 5 0 57 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 800 648 976 664)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "out[15..0]" (rect 90 0 134 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 800 664 976 680)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "address[15..0]" (rect 90 0 156 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 312 464 424 632)
+	(text "Mux21" (rect 0 5 12 36)(font "Arial" )(vertical))
+	(text "inst2" (rect 95 7 112 29)(font "Intel Clear" )(vertical))
+	(port
+		(pt 32 0)
+		(input)
+		(text "x[15..0]" (rect 0 0 37 12)(font "Arial" ))
+		(text "x[15..0]" (rect 27 21 39 58)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16)(line_width 3))
+	)
+	(port
+		(pt 48 0)
+		(input)
+		(text "y[15..0]" (rect 0 0 38 12)(font "Arial" ))
+		(text "y[15..0]" (rect 43 21 55 59)(font "Arial" )(vertical))
+		(line (pt 48 0)(pt 48 16)(line_width 3))
+	)
+	(port
+		(pt 64 0)
+		(input)
+		(text "ctrl" (rect 0 0 15 12)(font "Arial" ))
+		(text "ctrl" (rect 59 21 71 36)(font "Arial" )(vertical))
+		(line (pt 64 0)(pt 64 16))
+	)
+	(port
+		(pt 32 168)
+		(output)
+		(text "out[15..0]" (rect 0 0 47 12)(font "Arial" ))
+		(text "out[15..0]" (rect 27 108 39 155)(font "Arial" )(vertical))
+		(line (pt 32 168)(pt 32 152)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 96 152))
+	)
+	(flipy_rotate90)
+)
+(symbol
+	(rect 488 304 656 416)
+	(text "Mux21" (rect 5 0 36 12)(font "Arial" ))
+	(text "inst19" (rect 8 96 36 113)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "x[15..0]" (rect 0 0 37 12)(font "Arial" ))
+		(text "x[15..0]" (rect 21 27 58 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "y[15..0]" (rect 0 0 38 12)(font "Arial" ))
+		(text "y[15..0]" (rect 21 43 59 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "ctrl" (rect 0 0 15 12)(font "Arial" ))
+		(text "ctrl" (rect 21 59 36 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "out[15..0]" (rect 0 0 47 12)(font "Arial" ))
+		(text "out[15..0]" (rect 108 27 155 39)(font "Arial" ))
+		(line (pt 168 32)(pt 152 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 96))
+	)
+)
+(symbol
+	(rect 176 152 392 264)
+	(text "Program_Counter" (rect 125 0 211 12)(font "Arial" ))
+	(text "inst_PC" (rect 170 96 208 108)(font "Arial" ))
+	(port
+		(pt 216 32)
+		(input)
+		(text "PC_en" (rect 0 0 33 12)(font "Arial" ))
+		(text "PC_en" (rect 162 27 195 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32))
+	)
+	(port
+		(pt 216 48)
+		(input)
+		(text "clock" (rect 0 0 25 12)(font "Arial" ))
+		(text "clock" (rect 170 43 195 55)(font "Arial" ))
+		(line (pt 216 48)(pt 200 48))
+	)
+	(port
+		(pt 216 64)
+		(input)
+		(text "new_val[15..0]" (rect 0 0 71 12)(font "Arial" ))
+		(text "new_val[15..0]" (rect 124 59 195 71)(font "Arial" ))
+		(line (pt 216 64)(pt 200 64)(line_width 3))
+	)
+	(port
+		(pt 0 32)
+		(output)
+		(text "address[15..0]" (rect 0 0 70 12)(font "Arial" ))
+		(text "address[15..0]" (rect 21 27 91 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(parameter
+		"PROGRAM_START"
+		"0000010000000000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(drawing
+		(rectangle (rect 16 16 200 96))
+	)
+	(flipy)
+	(annotation_block (parameter)(rect 176 112 592 152))
+)
+(symbol
+	(rect 200 264 392 344)
+	(text "add_1" (rect 5 68 34 80)(font "Arial" ))
+	(text "inst_add1" (rect -22 4 25 16)(font "Arial" ))
+	(port
+		(pt 0 48)
+		(input)
+		(text "current[15..0]" (rect 0 0 66 12)(font "Arial" ))
+		(text "current[15..0]" (rect 21 41 87 53)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 192 48)
+		(output)
+		(text "next[15..0]" (rect 0 0 53 12)(font "Arial" ))
+		(text "next[15..0]" (rect 127 41 180 53)(font "Arial" ))
+		(line (pt 192 48)(pt 176 48)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 176 64))
+	)
+	(flipx)
+)
+(connector
+	(pt 144 312)
+	(pt 200 312)
+	(bus)
+)
+(connector
+	(pt 664 288)
+	(pt 592 216)
+	(bus)
+)
+(connector
+	(pt 592 216)
+	(pt 392 216)
+	(bus)
+)
+(connector
+	(pt 392 312)
+	(pt 400 312)
+	(bus)
+)
+(connector
+	(text "address[15..0]" (rect 734 656 800 673)(font "Intel Clear" ))
+	(pt 696 672)
+	(pt 800 672)
+	(bus)
+)
+(connector
+	(pt 664 336)
+	(pt 656 336)
+	(bus)
+)
+(connector
+	(pt 664 288)
+	(pt 664 336)
+	(bus)
+)
+(connector
+	(pt 400 312)
+	(pt 400 336)
+	(bus)
+)
+(connector
+	(pt 400 336)
+	(pt 488 336)
+	(bus)
+)
+(connector
+	(text "next_address[15..0]" (rect 407 336 499 353)(font "Intel Clear" ))
+	(pt 400 352)
+	(pt 488 352)
+	(bus)
+)
+(connector
+	(text "pc_set_ctrl" (rect 409 352 460 369)(font "Intel Clear" ))
+	(pt 400 368)
+	(pt 488 368)
+)
+(connector
+	(pt 240 424)
+	(pt 144 328)
+	(bus)
+)
+(connector
+	(pt 144 184)
+	(pt 144 312)
+	(bus)
+)
+(connector
+	(pt 144 312)
+	(pt 144 328)
+	(bus)
+)
+(connector
+	(text "address[15..0]" (rect 86 168 152 185)(font "Intel Clear" ))
+	(pt 80 184)
+	(pt 144 184)
+	(bus)
+)
+(connector
+	(pt 144 184)
+	(pt 176 184)
+	(bus)
+)
+(connector
+	(text "PC_en" (rect 406 168 437 185)(font "Intel Clear" ))
+	(pt 392 184)
+	(pt 456 184)
+)
+(connector
+	(text "clock" (rect 413 184 437 201)(font "Intel Clear" ))
+	(pt 392 200)
+	(pt 456 200)
+)
+(connector
+	(pt 800 656)
+	(pt 344 656)
+	(bus)
+)
+(connector
+	(pt 360 424)
+	(pt 360 464)
+	(bus)
+)
+(connector
+	(text "Rsrc_imm[15..0]" (rect 386 408 462 425)(font "Intel Clear" ))
+	(pt 456 424)
+	(pt 360 424)
+	(bus)
+)
+(connector
+	(pt 376 440)
+	(pt 376 464)
+)
+(connector
+	(text "ls_ctrl" (rect 389 424 418 441)(font "Intel Clear" ))
+	(pt 456 440)
+	(pt 376 440)
+)
+(connector
+	(pt 344 424)
+	(pt 344 464)
+	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS57755>>" (rect 246 408 369 425)(font "Intel Clear" )(invisible))
+	(pt 240 424)
+	(pt 344 424)
+	(bus)
+)
+(connector
+	(pt 344 632)
+	(pt 344 656)
+	(bus)
+)
+(junction (pt 144 312))
+(junction (pt 144 184))

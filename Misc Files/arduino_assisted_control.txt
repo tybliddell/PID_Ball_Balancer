@@ -1,0 +1,34 @@
+# M1_offset = reg1
+# M2_offset = reg2
+# M3_offset = reg3
+# M1_current = reg4
+# M2_current = reg5
+# M3_current = reg6
+# M1_pid = reg7
+# M2_pid = reg8
+# M3_pid = reg9
+
+INIT
+
+# Compute motor offsets
+WAITPID <reg14>
+
+# M1_offset = M1_pid - M1_current
+mov reg7, reg1 # M1_offset = M1_pid
+sub reg4, reg1 # M1_offset = M1_offset - M1_current
+
+# M2_offset = M2_pid - M1_current
+mov reg8, reg2 # M2_offset = M2_pid
+sub reg5, reg2 # M2_offset = M2_offset - M2_current
+
+# M3_offset = M3_pid - M3_current
+mov reg9, reg3 # M3_offset = M3_pid
+sub reg6, reg3 # M3_offset = M3_offset - M3_current
+
+add reg7, reg4 # M1_current = M1_current + M1_pid
+add reg8, reg5 # M2_current = M2_current + M2_pid
+add reg9, reg6 # M3_current = M3_current + M3_pid
+
+DRIVEMOTOR
+
+JMP <reg14>

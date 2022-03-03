@@ -1,0 +1,14 @@
+# M1_offset = reg1
+# M2_offset = reg2
+# M3_offset = reg3
+# M1_pid = reg7
+# M2_pid = reg8
+# M3_pid = reg9
+
+INIT
+WAITPID <reg14>
+mov reg7, reg1 # M1_offset = M1_pid
+mov reg8, reg2 # M2_offset = M2_pid
+mov reg9, reg3 # M3_offset = M3_pid
+DRIVEMOTOR
+JMP <reg14>

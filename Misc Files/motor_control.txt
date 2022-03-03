@@ -1,0 +1,41 @@
+# Initialize tuning variables
+movi 2, reg4
+movi 2, reg5
+movi 2, reg6
+
+# Compute motor offsets
+WAITPID <reg14>
+mov reg10, reg12 # x_temp = x_pid
+mov reg11, reg13 # y_temp = y_pid
+sub reg8, reg10  # x_pid = x_pid - x_pos
+sub reg9, reg11  # y_pid = y_pid - y_pos
+add reg12, reg8  # x_pos = x_pos + x_pid
+add reg13, reg9  # y_pos = y_pos + y_pid
+
+# M2, M3 -= y_pid*M23Y
+mov reg5, reg7
+mul reg11, reg7
+sub reg7, reg2
+sub reg7, reg3
+
+# M2 += x_pid*M23X
+# M3 -= x_pid*M23X
+mov reg6, reg7
+mul reg10, reg7
+add reg7, reg2
+sub reg7, reg3
+
+# M1 += y_pid*M1Y
+mov reg4, reg7
+mul reg11, reg7
+add reg7, reg1
+
+WAITPID
+
+DRIVEMOTOR
+
+movi 0, reg1
+movi 0, reg2
+movi 0, reg3
+
+JMP <reg14>

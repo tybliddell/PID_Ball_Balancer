@@ -1,0 +1,94 @@
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+
+# Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# File: C:\Users\tybli\OneDrive\School\Fall 2021\ECE 3710\Git code\ece-3710-group-project\output_files\final_assignments.csv
+# Generated on: Thu Dec 09 16:14:52 2021
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Transceiver Analog Settings Protocol,VCCR_GXB/VCCT_GXB Voltage,Transceiver I/O Pin Termination,Transceiver Dedicated Refclk Pin Termination,Transmitter Common Mode Driver Voltage,Transmitter Slew Rate Control,Transmitter Differential Output Voltage,Receiver Buffer Common Mode Voltage,Strict Preservation
+altera_reserved_tck,Input,,,,PIN_AC5,3.3-V LVTTL,,,,,,,,,,,,,
+altera_reserved_tdi,Input,,,,PIN_U8,3.3-V LVTTL,,,,,,,,,,,,,
+altera_reserved_tdo,Output,,,,PIN_AB9,3.3-V LVTTL,,,,,,,,,,,,,
+altera_reserved_tms,Input,,,,PIN_V9,3.3-V LVTTL,,,,,,,,,,,,,
+arduino_in,Input,PIN_AD21,4A,B4A_N0,PIN_AD21,3.3-V LVTTL,,,,,,,,,,,,,
+clk,Input,PIN_AF14,3B,B3B_N0,PIN_AF14,3.3-V LVTTL,,,,,,,,,,,,,
+clk_b,Input,,,,PIN_AH7,3.3-V LVTTL,,,,,,,,,,,,,
+clk_en,Input,PIN_AB12,3A,B3A_N0,PIN_AB12,3.3-V LVTTL,,,,,,,,,,,,,
+Disp1[0],Output,PIN_AE26,5A,B5A_N0,PIN_AE26,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp1[1],Output,PIN_AE27,5A,B5A_N0,PIN_AE27,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp1[2],Output,PIN_AE28,5A,B5A_N0,PIN_AE28,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp1[3],Output,PIN_AG27,5A,B5A_N0,PIN_AG27,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp1[4],Output,PIN_AF28,5A,B5A_N0,PIN_AF28,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp1[5],Output,PIN_AG28,5A,B5A_N0,PIN_AG28,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp1[6],Output,PIN_AH28,5A,B5A_N0,PIN_AH28,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp2[0],Output,PIN_AJ29,5A,B5A_N0,PIN_AJ29,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp2[1],Output,PIN_AH29,5A,B5A_N0,PIN_AH29,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp2[2],Output,PIN_AH30,5A,B5A_N0,PIN_AH30,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp2[3],Output,PIN_AG30,5A,B5A_N0,PIN_AG30,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp2[4],Output,PIN_AF29,5A,B5A_N0,PIN_AF29,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp2[5],Output,PIN_AF30,5A,B5A_N0,PIN_AF30,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp2[6],Output,PIN_AD27,5A,B5A_N0,PIN_AD27,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp3[0],Output,PIN_AB23,5A,B5A_N0,PIN_AB23,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp3[1],Output,PIN_AE29,5B,B5B_N0,PIN_AE29,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp3[2],Output,PIN_AD29,5B,B5B_N0,PIN_AD29,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp3[3],Output,PIN_AC28,5B,B5B_N0,PIN_AC28,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp3[4],Output,PIN_AD30,5B,B5B_N0,PIN_AD30,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp3[5],Output,PIN_AC29,5B,B5B_N0,PIN_AC29,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp3[6],Output,PIN_AC30,5B,B5B_N0,PIN_AC30,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp4[0],Output,PIN_AD26,5A,B5A_N0,PIN_AD26,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp4[1],Output,PIN_AC27,5A,B5A_N0,PIN_AC27,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp4[2],Output,PIN_AD25,5A,B5A_N0,PIN_AD25,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp4[3],Output,PIN_AC25,5A,B5A_N0,PIN_AC25,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp4[4],Output,PIN_AB28,5B,B5B_N0,PIN_AB28,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp4[5],Output,PIN_AB25,5A,B5A_N0,PIN_AB25,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp4[6],Output,PIN_AB22,5A,B5A_N0,PIN_AB22,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp5[0],Output,PIN_AA24,5A,B5A_N0,PIN_AA24,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp5[1],Output,PIN_Y23,5A,B5A_N0,PIN_Y23,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp5[2],Output,PIN_Y24,5A,B5A_N0,PIN_Y24,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp5[3],Output,PIN_W22,5A,B5A_N0,PIN_W22,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp5[4],Output,PIN_W24,5A,B5A_N0,PIN_W24,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp5[5],Output,PIN_V23,5A,B5A_N0,PIN_V23,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp5[6],Output,PIN_W25,5B,B5B_N0,PIN_W25,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp6[0],Output,PIN_V25,5B,B5B_N0,PIN_V25,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp6[1],Output,PIN_AA28,5B,B5B_N0,PIN_AA28,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp6[2],Output,PIN_Y27,5B,B5B_N0,PIN_Y27,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp6[3],Output,PIN_AB27,5B,B5B_N0,PIN_AB27,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp6[4],Output,PIN_AB26,5A,B5A_N0,PIN_AB26,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp6[5],Output,PIN_AA26,5B,B5B_N0,PIN_AA26,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+Disp6[6],Output,PIN_AA25,5A,B5A_N0,PIN_AA25,3.3-V LVTTL,,maximum current,,,,,,,,,,,
+key_0,Input,PIN_AA14,3B,B3B_N0,PIN_AA14,3.3-V LVTTL,,,,,,,,,,,,,
+key_1,Input,PIN_AA15,3B,B3B_N0,PIN_AA15,3.3-V LVTTL,,,,,,,,,,,,,
+key_2,Input,PIN_W15,3B,B3B_N0,PIN_W15,3.3-V LVTTL,,,,,,,,,,,,,
+key_3,Input,PIN_Y16,3B,B3B_N0,PIN_Y16,3.3-V LVTTL,,,,,,,,,,,,,
+m1_dir_out,Output,PIN_AA21,4A,B4A_N0,PIN_AA21,3.3-V LVTTL,,,,,,,,,,,,,
+m1_step_out,Output,PIN_AB17,4A,B4A_N0,PIN_AB17,3.3-V LVTTL,,,,,,,,,,,,,
+m2_dir_out,Output,PIN_AE23,4A,B4A_N0,PIN_AE23,3.3-V LVTTL,,,,,,,,,,,,,
+m2_step_out,Output,PIN_AD24,4A,B4A_N0,PIN_AD24,3.3-V LVTTL,,,,,,,,,,,,,
+m3_dir_out,Output,PIN_AF25,4A,B4A_N0,PIN_AF25,3.3-V LVTTL,,,,,,,,,,,,,
+m3_step_out,Output,PIN_AE24,4A,B4A_N0,PIN_AE24,3.3-V LVTTL,,,,,,,,,,,,,
+motor_ready_led,Output,PIN_V16,4A,B4A_N0,PIN_V16,3.3-V LVTTL,,,,,,,,,,,,,
+pixy_in,Input,PIN_AC22,4A,B4A_N0,PIN_AC22,3.3-V LVTTL,,,,,,,,,,,,,
+reset,Input,PIN_AE12,3A,B3A_N0,PIN_AE12,3.3-V LVTTL,,,,,,,,,,,,,
+sample_clock,Input,PIN_K14,8A,B8A_N0,PIN_K14,2.5 V,,,,,,,,,,,,,
+sw1,Input,PIN_AC12,3A,B3A_N0,PIN_AC12,3.3-V LVTTL,,,,,,,,,,,,,
+sw2,Input,PIN_AF9,3A,B3A_N0,PIN_AF9,3.3-V LVTTL,,,,,,,,,,,,,
+sw3,Input,PIN_AF10,3A,B3A_N0,PIN_AF10,3.3-V LVTTL,,,,,,,,,,,,,
+sw4,Input,PIN_AD11,3A,B3A_N0,PIN_AD11,3.3-V LVTTL,,,,,,,,,,,,,
+sw5,Input,PIN_AD12,3A,B3A_N0,PIN_AD12,3.3-V LVTTL,,,,,,,,,,,,,
+sw6,Input,PIN_AE11,3A,B3A_N0,PIN_AE11,3.3-V LVTTL,,,,,,,,,,,,,
+sw7,Input,PIN_AC9,3A,B3A_N0,PIN_AC9,3.3-V LVTTL,,,,,,,,,,,,,
+sw8,Input,PIN_AD10,3A,B3A_N0,PIN_AD10,3.3-V LVTTL,,,,,,,,,,,,,
+sw9,Input,,,,PIN_A3,3.3-V LVTTL,,,,,,,,,,,,,

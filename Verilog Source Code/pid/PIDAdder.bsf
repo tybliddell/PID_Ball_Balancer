@@ -1,0 +1,95 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 0 0 160 160)
+	(text "PIDAdder" (rect 21 0 85 16)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 144 25 156)(font "Arial" ))
+	(port
+		(pt 0 48)
+		(input)
+		(text "cin" (rect 0 0 16 14)(font "Arial" (font_size 8)))
+		(text "cin" (rect 4 24 29 47)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 76 48))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "add_sub" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "add_sub" (rect 4 8 81 31)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 88 32))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "dataa[7..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
+		(text "dataa[7..0]" (rect 4 48 103 71)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 64 72)(line_width 3))
+	)
+	(port
+		(pt 0 104)
+		(input)
+		(text "datab[7..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
+		(text "datab[7..0]" (rect 4 80 102 103)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 64 104)(line_width 3))
+	)
+	(port
+		(pt 160 88)
+		(output)
+		(text "result[7..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
+		(text "result[7..0]" (rect 58 64 155 87)(font "Arial" (font_size 8)))
+		(line (pt 160 88)(pt 96 88)(line_width 3))
+	)
+	(port
+		(pt 160 128)
+		(output)
+		(text "overflow" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "overflow" (rect 78 104 157 127)(font "Arial" (font_size 8)))
+		(line (pt 160 128)(pt 86 128))
+	)
+	(port
+		(pt 160 144)
+		(output)
+		(text "cout" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "cout" (rect 117 120 155 143)(font "Arial" (font_size 8)))
+		(line (pt 160 144)(pt 75 144))
+	)
+	(drawing
+		(text "A+B/A-B" (rect 89 45 259 113)(font "Arial" (font_size 8)))
+		(text "A" (rect 58 57 129 137)(font "Arial" (font_size 8)))
+		(text "B" (rect 57 89 127 201)(font "Arial" (font_size 8)))
+		(line (pt 76 48)(pt 76 68))
+		(line (pt 116 56)(pt 132 56))
+		(line (pt 88 32)(pt 88 72))
+		(line (pt 64 64)(pt 64 112))
+		(line (pt 64 64)(pt 96 72))
+		(line (pt 64 112)(pt 96 104))
+		(line (pt 96 72)(pt 96 104))
+		(line (pt 74 112)(pt 74 128))
+		(line (pt 85 107)(pt 85 128))
+		(line (pt 74 128)(pt 74 144))
+		(line (pt 0 0)(pt 162 0))
+		(line (pt 162 0)(pt 162 162))
+		(line (pt 0 162)(pt 162 162))
+		(line (pt 0 0)(pt 0 162))
+	)
+)
